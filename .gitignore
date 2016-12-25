@@ -1,0 +1,7 @@
+.vs/
+src/ReedSolomon/bin/
+src/ReedSolomon/obj/
+project.lock.json
+src/ReedSolomonTester/bin/
+src/ReedSolomonTester/obj/
+*.xproj.user
