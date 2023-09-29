@@ -5,7 +5,7 @@ This is a .NET implementation of the Reed-Solomon algorithm, supporting `.NET St
 My work was mostly and turn an existing mathematician-friendly implementation into a developer-friendly one.
 Also, this implementation focuses on a specific case where the Galois field order is precisely the amount of values a `byte` can contain.
 
-For exemple, encoding and decoding methods were taking integers as a series of constants of a polynomial expression, whereas most developers just prefer to work with a `byte[]` representing concrete data. (file content, datagram received from network, etc...)
+For example, encoding and decoding methods were taking integers as a series of constants of a polynomial expression, whereas most developers just prefer to work with a `byte[]` representing concrete data. (file content, datagram received from network, etc...)
 
 Even if you are only interested in the developer aspect of this library, I recommend having a look at the following topics:
 
@@ -25,7 +25,7 @@ The way to use is to encode a message, which produces error correction codewords
 Then, decode the original message providing the original message itself and computed error correction codewords.
 
 Both the original message and the error correction codewords can be damaged, and still allow decoding of the original message.
-The amount of acceptable damage depends on the amound of error correction codewords requested when encoding.
+The amount of acceptable damage depends on the amount of error correction codewords requested when encoding.
 
 # Credits
 
